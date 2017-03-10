@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Alpha Microsite Solution Template</Name>
+    <Description>Alpha Microsite Solution Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>Alpha.Microsite</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>Alpha.Microsite.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+	<ProjectCollection>
+		<SolutionFolder Name="src">  
+            <ProjectTemplateLink ProjectName="$projectname$">
+                src\Alpha.Settings\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$projectname$.Site">
+                src\Alpha.Settings.Site\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+		</SolutionFolder>  
+		<SolutionFolder Name="tests">  
+			<ProjectTemplateLink ProjectName="$projectname$.Tests">
+                tests\unittests\Alpha.Settings.Tests\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Site.Tests">
+                tests\unittests\Alpha.Settings.Site.Tests\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+		</SolutionFolder>  
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,40 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Alpha Microsite Core Template</Name>
+    <Description>Alpha.Settings Project</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Alpha.Settings</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Alpha.Settings.csproj" File="Alpha.Settings.csproj" ReplaceParameters="true">
+      <Folder Name="AppResources" TargetFolderName="AppResources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.ja-JP.resx">Resources.ja-JP.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.ko-KR.resx">Resources.ko-KR.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.th-TH.resx">Resources.th-TH.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.vi-VN.resx">Resources.vi-VN.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.zh-CN.resx">Resources.zh-CN.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.zh-TW.resx">Resources.zh-TW.resx</ProjectItem>
+      </Folder>
+      <Folder Name="Configurations" TargetFolderName="Configurations">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AppSettings.cs">AppSettings.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IUser.cs">IUser.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
