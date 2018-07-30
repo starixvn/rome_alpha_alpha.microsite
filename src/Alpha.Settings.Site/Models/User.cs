@@ -1,6 +1,5 @@
 ﻿namespace $safeprojectname$.Models
 {
-    using Settings.Models;
     using Sunplus.Agent.Model.Entities;
 
     public class User : IUser

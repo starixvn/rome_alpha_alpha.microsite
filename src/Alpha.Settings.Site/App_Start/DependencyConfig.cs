@@ -8,7 +8,6 @@
     using Fanex.Data.Repository;
     using MediatR;
     using Models;
-    using Settings.Models;
     using SimpleInjector;
     using SimpleInjector.Integration.Web;
     using SimpleInjector.Integration.Web.Mvc;

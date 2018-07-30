@@ -25,10 +25,10 @@
 		</SolutionFolder>  
 		<SolutionFolder Name="tests">  
 			<ProjectTemplateLink ProjectName="$projectname$.Tests">
-                tests\unittests\Alpha.Settings.Tests\MyTemplate.vstemplate
+                tests\Alpha.Settings.Tests\MyTemplate.vstemplate
             </ProjectTemplateLink>
 			<ProjectTemplateLink ProjectName="$projectname$.Site.Tests">
-                tests\unittests\Alpha.Settings.Site.Tests\MyTemplate.vstemplate
+                tests\Alpha.Settings.Site.Tests\MyTemplate.vstemplate
             </ProjectTemplateLink>
 		</SolutionFolder>  
     </ProjectCollection>

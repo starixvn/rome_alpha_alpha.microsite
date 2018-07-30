@@ -28,10 +28,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
       </Folder>
       <Folder Name="assets" TargetFolderName="assets">
-        <ProjectItem ReplaceParameters="true" TargetFileName="Allbet.css">Allbet.css</ProjectItem>
         <Folder Name="bundles" TargetFolderName="bundles">
-          <ProjectItem ReplaceParameters="true" TargetFileName="default.css">default.css</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="default.min.css">default.min.css</ProjectItem>
         </Folder>
         <Folder Name="scripts" TargetFolderName="scripts" />
         <Folder Name="styles" TargetFolderName="styles">
@@ -45,17 +42,15 @@
             <ProjectItem ReplaceParameters="false" TargetFileName="note_title.gif">note_title.gif</ProjectItem>
           </Folder>
           <ProjectItem ReplaceParameters="false" TargetFileName="site.scss">site.scss</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="site.min.css">site.min.css</ProjectItem>
         </Folder>
       </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="bundleconfig.json">bundleconfig.json</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="compilerconfig.json">compilerconfig.json</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="compilerconfig.json.defaults">compilerconfig.json.defaults</ProjectItem>
       <Folder Name="Controllers" TargetFolderName="Controllers">
         <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="SiteBaseController.cs">SiteBaseController.cs</ProjectItem>
       </Folder>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="bundleconfig.json">bundleconfig.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="compilerconfig.json">compilerconfig.json</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="compilerconfig.json.defaults">compilerconfig.json.defaults</ProjectItem>
       <ProjectItem ReplaceParameters="false" TargetFileName="deployment.ignore">deployment.ignore</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
@@ -79,40 +74,56 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.config">Web.AppSettings.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNL.config">Web.AppSettings.backupMNL.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNL2.config">Web.AppSettings.backupMNL2.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNL4.config">Web.AppSettings.backupMNL4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNLExNap.config">Web.AppSettings.backupMNLExNap.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNLExNap2.config">Web.AppSettings.backupMNLExNap2.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNLExNap4.config">Web.AppSettings.backupMNLExNap4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNLNap.config">Web.AppSettings.backupMNLNap.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNLNap2.config">Web.AppSettings.backupMNLNap2.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.backupMNLNap4.config">Web.AppSettings.backupMNLNap4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.napexternal.config">Web.AppSettings.napexternal.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.napexternal2.config">Web.AppSettings.napexternal2.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.napexternal4.config">Web.AppSettings.napexternal4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.napinternal.config">Web.AppSettings.napinternal.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.napinternal2.config">Web.AppSettings.napinternal2.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.napinternal4.config">Web.AppSettings.napinternal4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.pro.config">Web.AppSettings.pro.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.pro2.config">Web.AppSettings.pro2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.pro4.config">Web.AppSettings.pro4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.sit.config">Web.AppSettings.sit.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.sit2.config">Web.AppSettings.sit2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.sit4.config">Web.AppSettings.sit4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.uat.config">Web.AppSettings.uat.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.uat2.config">Web.AppSettings.uat2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.AppSettings.uat4.config">Web.AppSettings.uat4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.local.config">Web.local.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNL.config">Web.backupMNL.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNL2.config">Web.backupMNL2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNL4.config">Web.backupMNL4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNLExNap.config">Web.backupMNLExNap.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNLExNap2.config">Web.backupMNLExNap2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNLExNap4.config">Web.backupMNLExNap4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNLNap.config">Web.backupMNLNap.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNLNap2.config">Web.backupMNLNap2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.backupMNLNap4.config">Web.backupMNLNap4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.napexternal.config">Web.napexternal.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.napexternal2.config">Web.napexternal2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.napexternal4.config">Web.napexternal4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.napinternal.config">Web.napinternal.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.napinternal2.config">Web.napinternal2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.napinternal4.config">Web.napinternal4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.pro.config">Web.pro.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.pro2.config">Web.pro2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.pro4.config">Web.pro4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.sit.config">Web.sit.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.sit2.config">Web.sit2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.sit4.config">Web.sit4.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.uat.config">Web.uat.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.uat2.config">Web.uat2.config</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Web.uat4.config">Web.uat4.config</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
